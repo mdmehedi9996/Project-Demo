@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run OpenGL App",
+            "type": "cppdbg",
+            "request": "launch",
+
+            "program": "${workspaceFolder}/src/main.exe",
+            "cwd": "${workspaceFolder}/src",
+
+            "args": [],
+            "stopAtEntry": false,
+
+            "environment": [],
+            "externalConsole": false,
+
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb"
+        }
+    ]
+}
